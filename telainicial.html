@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tela Inicial</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<style>
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(41deg, rgb(0, 255, 157) , rgb(153, 0, 255));
+}
+#submit{
+    background-color: rgb(67, 64, 69);
+    color: white; 
+    transform: translate(50%, 50%);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    padding: 5px 5px;
+}
+#submit:hover{
+    background-color: rgb(225, 221, 228);
+    color:rgb(21, 27, 23);
+    cursor: pointer;
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#nome{
+    height: 60px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: rgb(67, 64, 69);
+    color: white;
+    border: 0;
+    padding: 0px 10px;
+}
+#senha{
+    height: 60px;
+    width: 190px;
+    border-radius: 10px;
+    background-color:rgb(67, 64, 69);
+    border: 0;
+    padding: 0px 10px;
+    color: white;
+}
+form{
+    background-color: rgb(21, 27, 23);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px 80px;
+    border-style: solid;
+    border-color: rgb(35, 81, 4);
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+form h1{
+    text-align: center;
+    color: white;
+    padding: 0px 0px 20px;
+}
+form h3{
+    font-size: 10px;
+    margin-top: 0;
+    color: rgb(193, 189, 189);
+}
+h3:hover{
+    color: white;
+}
+</style>
+</head>
+<body>
+    <form>
+        <h1>LOGIN</h1>
+    <input id="nome" type="text" required placeholder="Nome">
+    <br>
+    <br>
+    <input id="senha" type="password" required placeholder="Senha">
+    <br>
+    <br>
+    <a href="telarecuperacao.html">><h3>Esqueci minha senha</h3></a>
+    <input id="submit" type="submit" value="Enviar"></a>
+    </form>
+</body>
+</html>
